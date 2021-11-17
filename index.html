@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+
+
+        <!--  Bootstrap css file  -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+
+        <!--  font awesome icons  -->
+        <link rel="stylesheet" href="css/all.min.css">
+    
+    
+        <!--  Magnific Popup css file  -->
+        <link rel="stylesheet" href="vendor/Magnific-Popup/dist/magnific-popup.css">
+    
+    
+        <!--  Owl-carousel css file  -->
+        <link rel="stylesheet" href="vendor/owl-carousel/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="vendor/owl-carousel/css/owl.theme.default.min.css">
+    
+    
+        <!--  custom css file  -->
+        <link rel="stylesheet" href="css/style.css">
+    
+        <!--  Responsive css file  -->
+        <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body><!-- Swiper -->
+    <div class="swiper-container mySwiper">
+      <div class="swiper-wrapper">
+        
+        <div class="swiper-slide">
+            <img src="img/v1.png">
+        </div>
+        <div class="swiper-slide"><img src="img/v2.png">
+        </div>
+        <div class="swiper-slide"><img src="img/v3.png">
+        </div>
+        <div class="swiper-slide"><img src="img/v4.png">
+        </div>
+        <div class="swiper-slide"><img src="img/v6.png">
+        </div>
+        <div class="swiper-slide"><img src="img/v7.png">
+        </div>
+        <div class="swiper-slide"><img src="img/v8.png">
+        </div>
+        <div class="swiper-slide"><img src="img/v9.png">
+        </div>
+        
+        
+      </div>
+    </div>
+
+    
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+ <!-- Initialize Swiper -->
+ <script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 20,
+        stretch: 0,
+        depth: 200,
+        modifier: 1,
+        slideShadows: true,
+      },
+     loop:true,
+     autoplay:{
+         delay:500,
+         disableOnInteration :false
+
+     },
+    });
+  </script>
+
+</body>
+</html>
